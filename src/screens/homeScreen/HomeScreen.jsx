@@ -5,7 +5,7 @@ import YtVideo from "../../components/ytVideo/YtVideo";
 const HomeScreen = () => {
   return (
     <>
-      <Container>
+  
         <CategoriesBar />
         <div className="row">
           {
@@ -16,7 +16,7 @@ const HomeScreen = () => {
             )
           }
         </div>
-      </Container>
+    
     </>
   );
 };

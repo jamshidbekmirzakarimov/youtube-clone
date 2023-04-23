@@ -5,13 +5,16 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { FaBars } from "react-icons/fa"
 import {MdNotifications, MdApps} from "react-icons/md"
 
-const Header = () => {
+const Header = ({handleToggleSidebar}) => {
   return (
     <header>
       <div className="site-header-wrapper">
         <div className="header-start">
         <div className="menu-burger">
-        <FaBars size={24}/>
+            <FaBars
+              size={24}
+            onClick={()=>handleToggleSidebar()}
+            />
           </div>
           <img className="header-logo" src={YoutubeLogo} alt="youtube logo" />
           <form className="d-flex">
