@@ -1,0 +1,25 @@
+.site-header-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 72px 20px 32px;
+}
+
+.header-start{
+  display: flex;
+  align-items: center;
+}
+
+.header-right{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-logo{
+  margin-right: 60px;
+}
+
+.menu-burger{
+  margin-right: 28px;
+}

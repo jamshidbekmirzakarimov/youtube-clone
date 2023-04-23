@@ -15,6 +15,14 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+ul,li,ol{
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -50,4 +58,9 @@ img {
   margin-left: auto;
   padding-right: 20px;
   padding-left: 20px;
+}
+
+.app_wrapper{
+  display: flex;
+  min-height: 90vh;
 }

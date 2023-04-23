@@ -1,5 +1,5 @@
 import React from 'react'
-import "ytVideo.jsx"
+import "./ytVideo.css"
 const YtVideo = () => {
   return (
     <div>
